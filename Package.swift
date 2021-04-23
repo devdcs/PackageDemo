@@ -12,8 +12,8 @@ let package = Package(
             targets: ["CalendarControl"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(name: "CalendarControl",
+         url: "https://github.com/devdcs/PackageDemo.git",from: "1.0.2")
     ],
     targets: [
         .binaryTarget(
